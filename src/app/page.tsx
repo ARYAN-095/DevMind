@@ -1,7 +1,9 @@
  
-export default async function Home() {
+ import {Button} from "@/components/ui/button"
+
+export default  function Home() {
    
   return (
-     <h1 className="text-center text-red-400 text-4xl py-10"> Hello World </h1>
+    <Button>Click me</Button>  
   );
 }
