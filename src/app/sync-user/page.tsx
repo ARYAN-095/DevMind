@@ -1,4 +1,4 @@
-import React, { useReducer } from 'react'
+import React from 'react'
 import {auth, clerkClient} from '@clerk/nextjs/server'
 
 import {db} from '@/server/db'
