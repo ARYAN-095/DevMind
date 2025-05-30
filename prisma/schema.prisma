@@ -18,8 +18,8 @@ datasource db {
     imageUrl String?
     firstName String?
     lastName String?
-    
+
     emailAddress String @unique
-    password String
+     
     credits Int @default(150)
  }

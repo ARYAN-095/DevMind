@@ -4,6 +4,7 @@ import {auth, clerkClient} from '@clerk/nextjs/server'
 import {db} from '@/server/db'
 
 import { notFound, redirect } from 'next/navigation'
+import type { Syncopate } from 'next/font/google'
 
 const SyncUser= async()=>{
     const {userId}= await auth();
@@ -41,3 +42,5 @@ const SyncUser= async()=>{
 
     return redirect('/dashboard')
 }
+
+export default SyncUser
