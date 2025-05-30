@@ -7,3 +7,6 @@ const DashboardPage=()=>{
         <div> {user?.firstName}</div>
     )
 }
+
+
+export default DashboardPage
